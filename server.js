@@ -122,7 +122,7 @@ app.post("/email",async (req,res)=>{
                     from: 'unnamedbot2oo5@gmail.com', // TODO: email sender
                     to: req.body.email, // TODO: email receiver
                     subject: 'Password reset',
-                    text: `Reset your password using the link : http://localhost:3000/resetpassword/${user[0]._id}`
+                    text: `Reset your password using the link : https://goofy-nobel-36d9fd.netlify.app/resetpassword/${user[0]._id}`
                 };
                 
                 // Step 3
